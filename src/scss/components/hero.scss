@@ -1,0 +1,43 @@
+
+p {
+  color: rgba(253, 205, 218, 0.98);
+  border: solid 0 #666;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  font-size: 0.75rem;
+  font-family: 'Slabo', sans-serif;
+  background-color: black;
+}
+
+.first {
+  background: gray;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.second {
+  background: black;
+  color: white;
+  position: relative;
+  left: 100px;
+  top: -50px;
+}
+
+h3,
+h2 {
+  color: white;
+  padding: 5px 15px;
+}
+
+/* inspiration layout */
+.article_inspirations {
+  width: 90%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
