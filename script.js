@@ -8,3 +8,7 @@ $('.fade').slick({
   cssEase: 'linear',
   arrows: false
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.foo');
+sr.reveal('.bar');
