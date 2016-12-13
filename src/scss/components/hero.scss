@@ -1,13 +1,3 @@
-.holder {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  position: static;
-  background-color: $black;
-  border: 3px solid $green;
-  padding: 20px;
-}
-
 p {
   color: rgba(253, 205, 218, 0.98);
   border: solid 0 #666;
@@ -35,20 +25,6 @@ p {
   position: relative;
   left: 100px;
   top: -50px;
-}
-
-h3,
-h2 {
-  color: white;
-  padding: 5px 15px;
-}
-
-/* inspiration layout */
-.article_inspirations {
-  width: 90%;
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
 }
 
 /* hero carousel */
