@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  position: static;
+  background-color: $black;
+  border: 3px solid $green;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    min-width: 100px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    background: $sunlight;
+  }
+
+  .title {
+    color: $sunlight;
+    width: 75%;
+    height: inherit;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: 1;
+  }
+
+  .title h2 {
+    color: #f5a61d;
+  }
+}

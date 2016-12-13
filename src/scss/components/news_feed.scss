@@ -15,6 +15,16 @@ main {
   box-shadow: 0 0 20px 0 black;
 }
 
+.holder {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  position: static;
+  background-color: $black;
+  border: 3px solid $green;
+  padding: 20px;
+}
+
 a {
   text-decoration: none;
   color: white;
