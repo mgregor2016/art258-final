@@ -1,4 +1,3 @@
-// put all your JS in here
 $(document).ready(function(){
 $('.fade').slick({
   dots: false,
@@ -11,7 +10,3 @@ $('.fade').slick({
 });
 });
 	
-
-window.sr = ScrollReveal();
-sr.reveal('.foo');
-sr.reveal('.bar');

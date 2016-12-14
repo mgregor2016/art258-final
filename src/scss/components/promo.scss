@@ -29,11 +29,13 @@ $rclr: red;
   position: absolute;
 }
 
-.fade {
+div.fade {
   width: 100%;
-  height: 100%;
-  display: block;
+  height: inherit;
+  padding: 0;
+  justify-content: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .fade .slick-arrow.slick-hidden {
@@ -41,6 +43,9 @@ $rclr: red;
 }
 
 .fade img {
-  width: 30%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  overflow: hidden;
 }

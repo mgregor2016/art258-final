@@ -1,4 +1,5 @@
 // put all your JS in here
+$(document).ready(function(){
 $('.fade').slick({
   dots: false,
   infinite: true,
@@ -8,6 +9,8 @@ $('.fade').slick({
   cssEase: 'linear',
   arrows: false
 });
+});
+	
 
 window.sr = ScrollReveal();
 sr.reveal('.foo');
