@@ -8,15 +8,15 @@ $blclr: blue;
 $rclr: red;
 
 p {
-  color: rgba(253, 205, 218, 0.98);
+  color: rgba(255, 175, 100, 0.98);
   border: solid 0 #666;
   width: 100%;
   position: relative;
   margin: 0;
   left: 0;
   top: 0;
-  padding: 15px;
-  font-size: 0.75rem;
+  padding: 25px 35px;
+  font-size: 1rem;
   font-family: 'Slabo', sans-serif;
   background-color: $blkclr;
 }

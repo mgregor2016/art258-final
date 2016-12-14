@@ -24,10 +24,14 @@ main {
   box-shadow: 0 0 20px 0 black;
 }
 
-h3,
 h2 {
   color: $basicclr;
-  padding: 5px 15px;
+  padding: 10px 35px;
+}
+
+h3 {
+  color: $basicclr;
+  padding: 0 35px 10px;
 }
 
 a {
