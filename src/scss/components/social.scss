@@ -14,14 +14,14 @@ $rclr: red;
   text-transform: uppercase;
   font-size: 0.5rem;
 
-  .pbs img {
-    width: 45px;
-  }
-
-  .icon img {
+  img {
     width: 25px;
     height: auto;
     justify-content: space-between;
+  }
+
+  .pbs img {
+    width: 45px;
   }
 }
 
