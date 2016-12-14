@@ -3,10 +3,9 @@ $('.fade').slick({
   dots: false,
   infinite: true,
   autoplay: true,
-  speed: 2500,
+  autoplaySpeed: 30000,
   fade: true,
   cssEase: 'linear',
-  arrows: false
+  arrows: true
 });
 });
-	

@@ -1,7 +1,87 @@
 /* inspiration layout */
 .article_inspirations {
-  width: 90%;
+  width: 100%;
   height: auto;
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+$duration: 200s;
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.band {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  border: 1px solid green;
+  margin-bottom: 0;
+}
+
+.ticker-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 3rem;
+  background-color: black;
+  padding-left: 100%;
+
+  // offset items to begin
+}
+
+.ticker {
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  line-height: 3rem;
+  position: relative;
+  white-space: nowrap;
+  background-color: black;
+  text-align: center;
+
+  // display items in a line
+  padding-right: 100%;
+
+  // ensure items go before animations repeat (taken from parent due to inline-block)
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+
+  &__item {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    color: rgba(255, 75, 100, 0.98);
+    padding-top: 0.5rem;
+  }
 }
