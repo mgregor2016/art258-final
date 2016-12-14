@@ -1,3 +1,12 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -17,6 +26,6 @@
 }
 
 footer {
-  background-color: #007577;
+  background-color: $bgclr;
   padding: 1rem 0;
 }

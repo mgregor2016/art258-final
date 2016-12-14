@@ -1,10 +1,19 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 .header {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
   position: static;
-  background-color: $black;
-  border: 3px solid $green;
+  background-color: $blkclr;
+  border: 3px solid $grclr;
   display: flex;
   justify-content: space-between;
 
@@ -26,6 +35,6 @@
   }
 
   .title h2 {
-    color: #f5a61d;
+    color: $sunlight;
   }
 }

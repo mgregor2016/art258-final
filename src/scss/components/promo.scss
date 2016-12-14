@@ -1,3 +1,12 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 .container {
   width: 100%;
   margin: 50px auto;
@@ -16,7 +25,7 @@
 .container_2 {
   top: 0;
   left: 100px;
-  background: $blue;
+  background: $blclr;
   position: absolute;
 }
 

@@ -1,3 +1,12 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 p {
   color: rgba(253, 205, 218, 0.98);
   border: solid 0 #666;
@@ -9,7 +18,7 @@ p {
   padding: 15px;
   font-size: 0.75rem;
   font-family: 'Slabo', sans-serif;
-  background-color: black;
+  background-color: $blkclr;
 }
 
 .first {
@@ -20,7 +29,7 @@ p {
 }
 
 .second {
-  background: black;
+  background: $blkclr;
   color: white;
   position: relative;
   left: 100px;
@@ -33,12 +42,12 @@ p {
   height: auto;
   background-color: $sunlight;
   position: relative;
-  border: 1px solid $blue;
+  border: 1px solid $blclr;
 }
 
 .hero_carousel img {
   background: $sunlight;
-  border: 3px solid  $green;
+  border: 3px solid  $grclr;
 }
 
 .hero_carousel img {
@@ -47,5 +56,5 @@ p {
   object-fit: cover;
   margin: 0 auto;
   overflow: hidden;
-  border: 3px solid  $green;
+  border: 3px solid  $grclr;
 }

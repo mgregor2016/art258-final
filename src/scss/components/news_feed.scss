@@ -1,3 +1,12 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: $blgreen;
+  background: $bgclr;
 }
 
 main {
@@ -20,12 +29,12 @@ main {
   height: auto;
   margin-bottom: 10px;
   position: static;
-  background-color: $black;
-  border: 3px solid $green;
+  background-color: $blkclr;
+  border: 3px solid $grclr;
   padding: 20px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: $basicclr;
 }

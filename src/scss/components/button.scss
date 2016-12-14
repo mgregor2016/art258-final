@@ -1,6 +1,15 @@
+$basicclr: #fff;
+$sunlight: #f5a61d;
+$bgclr: #007577;
+$blkclr: #000;
+$grclr: green;
+$yllwclr: yellow;
+$blclr: blue;
+$rclr: red;
+
 /* Mixin */
 .buttons {
-  background: #000;
+  background: $blkclr;
   width: 100%;
   height: auto;
   padding: 1rem;
@@ -17,8 +26,8 @@
   border: solid 0 gray;
   padding: 0.5rem 0;
   text-transform: uppercase;
-  background: $blgreen;
-  color: white;
+  background: $bgclr;
+  color: $basicclr;
   position: relative;
   left: 0;
   width: 100px;
@@ -52,7 +61,7 @@
     justify-content: center;
     text-align: center;
     pointer-events: none;
-    color: $white;
+    color: $basicclr;
     background-color: rgba(45, 187, 235, 0.47);
     opacity: 0;
     transition: all 0.5s linear;
@@ -81,8 +90,8 @@
 }
 
 .block img:hover {
-  background: $black;
-  border: 0 solid $red;
+  background: $blkclr;
+  border: 0 solid $rclr;
 
   /* display:inline-block; */
 
@@ -107,7 +116,7 @@
   }
 
   .block:nth-child(n + 1) {
-    background: $yellow;
+    background: $yllwclr;
     margin-left: 1rem;
   }
 }
@@ -118,7 +127,7 @@
   }
 
   .block:nth-child(2n + 1) {
-    background: $yellow;
+    background: $yllwclr;
     margin-left: 1rem;
   }
 }
@@ -129,21 +138,21 @@
   }
 
   .block:nth-child(2n + 1) {
-    background: $yellow;
+    background: $yllwclr;
     margin-left: 0;
   }
 }
 
 .block:first-child {
-  background: $red;
+  background: $rclr;
   margin-left: 1rem;
 }
 
 .block:last-child {
-  background: $blue;
+  background: $blclr;
 }
 
 .block:nth-child(3n + 1) {
-  background: $black;
+  background: $blkclr;
   margin-left: 1rem;
 }
