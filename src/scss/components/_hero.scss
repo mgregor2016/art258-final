@@ -8,12 +8,12 @@ p {
   top: 0;
   padding: 25px 35px;
   font-size: 1rem;
-  font-family: 'Slabo', sans-serif;
+  font-family: $default-font;
   background-color: $blkclr;
 }
 
 .first {
-  background: gray;
+  background: $gryclr;
   position: relative;
   top: 50px;
   left: 50px;
@@ -21,7 +21,7 @@ p {
 
 .second {
   background: $blkclr;
-  color: white;
+  color: $basicclr;
   position: relative;
   left: 100px;
   top: -50px;

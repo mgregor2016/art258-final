@@ -38,8 +38,8 @@ $duration: 200s;
 .band {
   height: auto;
   width: 100%;
-  background-color: black;
-  border: 1px solid green;
+  background-color: $blkclr;
+  border: 1px solid $grclr;
   margin-bottom: 0;
 }
 
@@ -48,7 +48,7 @@ $duration: 200s;
   width: 100%;
   overflow: hidden;
   height: 3rem;
-  background-color: black;
+  background-color: $blkclr;
   padding-left: 100%;
 
   // offset items to begin
@@ -61,7 +61,7 @@ $duration: 200s;
   line-height: 3rem;
   position: relative;
   white-space: nowrap;
-  background-color: black;
+  background-color: $blkclr;
   text-align: center;
 
   // display items in a line
@@ -81,7 +81,7 @@ $duration: 200s;
     text-decoration: none;
     display: inline-block;
     font-size: 1.3rem;
-    color: rgba(255, 175, 100, 0.98);
+    color: $tickerclr;
     padding-top: 0.5rem;
   }
 }
