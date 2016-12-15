@@ -9,3 +9,14 @@ $('.fade').slick({
   arrows: true
 });
 });
+
+$(document).ready(function(){
+  $('.promo').slick({
+  dots: false,
+  infinite: true,
+  autoplay: true,
+  fade: true,
+  cssEase: 'linear',
+  arrows: false
+});
+});
