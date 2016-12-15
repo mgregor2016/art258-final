@@ -1,5 +1,15 @@
+.article_inspirations p::first-letter {
+  color: red;
+  font-size: 2.4rem;
+  float: left;
+  line-height: 1;
+  margin-right: 8px;
+  border: solid 1px $rclr;
+  padding: 10px;
+}
+
 p {
-  color: rgba(255, 175, 100, 0.98);
+  color: $tickerclr;
   border: solid 0 #666;
   width: 100%;
   position: relative;
