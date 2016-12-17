@@ -80,6 +80,7 @@ $duration: 200s;
   &__item {
     text-decoration: none;
     display: inline-block;
+    font-family: $ticker-font;
     font-size: 1.3rem;
     color: $tickerclr;
     padding-top: 0.5rem;
