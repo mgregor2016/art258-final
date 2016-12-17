@@ -1,11 +1,12 @@
 .article_inspirations p::first-letter {
   color: red;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   float: left;
   line-height: 1;
   margin-right: 8px;
+  margin-top: -3px;
   border: solid 1px $rclr;
-  padding: 10px;
+  padding: 6px;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
   margin: 0;
   left: 0;
   top: 0;
-  padding: 25px 35px;
+  padding: 25px;
   font-size: 1rem;
   font-family: $default-font;
   background-color: $blkclr;
