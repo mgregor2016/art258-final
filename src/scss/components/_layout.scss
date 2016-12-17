@@ -18,11 +18,13 @@ main {
 h2 {
   color: $basicclr;
   padding: 10px 35px;
+  font-family: $default-font;
 }
 
 h3 {
   color: $basicclr;
   padding: 0 35px 10px;
+  font-family: default-font;
 }
 
 a {

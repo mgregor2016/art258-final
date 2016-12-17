@@ -1,6 +1,7 @@
 .article_inspirations p::first-letter {
   color: red;
   font-size: 2.1rem;
+  font-family: $default-font;
   float: left;
   line-height: 1;
   margin-right: 8px;
