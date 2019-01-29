@@ -27,3 +27,7 @@ __`README.md`__ - what you see on GitHub that describes the project. It's writte
 
 __`gulpfile.js`__ - controls [gulp](http://gulpjs.com), the task runner that we're using to run all the tasks that "build" our projects.
 
+## GO TO THIS LINK IN PAGES
+
+https://mgregor2016.github.io/art258-final/src/index.html
+
