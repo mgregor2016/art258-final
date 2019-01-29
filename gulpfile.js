@@ -57,7 +57,7 @@ gulp.task('stylelint', () => {
 gulp.task('sync', () => {
     browserSync.init('', {
         server: {
-            baseDir: ''
+            baseDir: '.'
         }
     })
 })
