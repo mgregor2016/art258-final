@@ -3,3 +3,4 @@ dist
 
 # Remove everything below when forking this for a project
 /images
+/index.html
