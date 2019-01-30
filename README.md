@@ -29,5 +29,5 @@ __`gulpfile.js`__ - controls [gulp](http://gulpjs.com), the task runner that we'
 
 ## GO TO THIS LINK IN PAGES
 
-https://mgregor2016.github.io/art258-final/src/index.html
+https://mgregor2016.github.io/art258-final/index.html
 
